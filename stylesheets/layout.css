@@ -33,7 +33,8 @@ body { background-image: url(../images/purty_wood.png); }
 .site-content .section { display: block; float: none; margin: 0 auto; }
 .site-content .item-title { font-family: "blanchcaps"; color: #FFF200; }
 .site-content .item-description {font-family: gillsans; color: #FFFFFF; }
-.site-news .awards {padding-top:100px; size: 100px;}
+.site-news .awards {display: inline-block; padding-top:100px; padding-bottom:50px; size: 100px;}
+.awards img {display: inline-block; margin-right: 28px;}
 .site-content .item-price {color: #d3d3d3;}
 .site-footer .footer-content {border-radius: 15px; background-color: #d3d3d3; padding: 10px; display:block; margin: 0 auto; text-align: center; font-family:"blanchcaps"; color: #FFFFFF;}
 .menu-section-title {padding-top: 150px; padding-bottom: 0;}
