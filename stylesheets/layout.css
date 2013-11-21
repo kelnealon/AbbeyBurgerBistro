@@ -17,6 +17,7 @@
 /* #Site Styles
 ================================================== */
 body { background-image: url(../images/purty_wood.png); }
+.site-header {position: relative; z-index: 100;}
 .site-header .brand { display:block; float: none; margin: 0 auto; text-align: center; }
 .top-bar { background-color: #d3d3d3; }
 .nav { margin: 0; padding: 0; list-style: none; }
