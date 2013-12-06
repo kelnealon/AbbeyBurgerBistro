@@ -93,18 +93,23 @@ body { background-image: url(../images/darkwood3.jpg);}
 .top-content {font-family: "Blanchcaps"; font-size: 33px; color: #005FA7; text-align:center;  }
 .top-content > div { display:; }
 .top-content > div:first-child { display: block; padding: 15px }
-.intro { display: none; padding-top: 50px; padding-bottom: 40px; text-align: center; border-radius: 15px;  opacity:40%; font-size: 40px; font-family: "blanchcaps"; color: #005FA7 ; }
-.intro-text { margin: 40px; background-color:transparent; opacity: .75; border-radius: 15px; text-align:center; padding: 10px; font-size: 24px; font-family: 'Reenie Beanie'; color: #FFF200;}
+.intro-text { margin: 20px; background-color:transparent; opacity:.75; line-height: 1em; text-align:center; padding: 10px; font-size: 30px; font-family: 'Reenie Beanie'; color: #FFF200;}
 .site-content .section { display: block; float: none; margin: 0 auto; }
 .site-content .item-title { font-family: "blanchcaps"; color: #FFF200; font-size: 40px; }
 .site-content .item-description {font-family: gillsans; color: #FFF200; font-size: 16px; }
 .site-news .awards {align-self: center; display: inline-block; padding-top:20px; padding-bottom:50px; size: 100px;}
-.awards img {display: inline-block; margin-right: 28px;}
+
+.awards img:hover {opacity: 1; cursor: url('http://www.dolliehost.com/dolliecrave/cursors/cursors-food/food57.gif'), auto;}
+.awards img {display: inline-block; margin-right: 26px; opacity: .5;}
+
 .site-content .item-price { font-family: "blanchcaps"; padding-top: 0px; font-size: 25px; color: #a6836f;}
+
 .site-footer .footer-content { margin-top: 50px; margin-bottom: 50px; background-color: #005FA7; padding: 10px; margin: 0 auto; text-align: center; font-family:"blanchcaps"; font-size:30px; color: #FFF200; padding-bottom:10px;}
+
 .menu-section-title:hover {opacity: 1; cursor:pointer;}
 .menu-section-title {opacity: .75; padding-top: 100px; padding-bottom: 0;}
-.bottom-bun:hover {opacity: 1; cursor:pointer;}
+
+.bottom-bun:hover {opacity: 1; cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-food/food57.gif'), auto;}
 .bottom-bun {opacity: .75; padding-top:0px;padding-bottom: 20px;}
 
 .menu-section-content {padding-top:20px;
