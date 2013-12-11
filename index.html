@@ -507,7 +507,7 @@
     <script src="bootstrap.js" type="text/javascript"></script>
     <script>
         $('.oval-thought-border').hide();
-        $('.rightnav').click(function (e) {
+        $('.rightnav').on('click', 'a', function (e) {
                 $(this).siblings('.oval-thought-border').toggle();
         });
     </script>
