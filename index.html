@@ -127,21 +127,19 @@
         </div><!-- top bar -->
     </div><!-- site-header -->
 
-    <div class="site-content container">
-        <div class="section eight columns">
+ <div class="site-intro container">
+        <div class="section eight columns intro">
             <div class="intro-text">
                 <p>Located across from the bustling Cross Street Market in
                 historic Federal Hill, Abbey Burger is your spot for food and
                 fun in Baltimore.</p>
-
+       
                 <p>Join us for Happy Hour every weekday from 3–6pm and catch
                 any sporting event on one of our many big screens.</p>
-
-                <p>Voted #1 Burger Joint in Maryland by USA today and
-                Maryland's Best Burger by Zagat.</p>
             </div>
         </div>
-
+     </div>
+   <div class="site-content container">
         <div class="section eight columns" id="menu">
             <div class="menu-section" id="burgers">
                 <h2 class="menu-section-title"><img alt=
@@ -497,7 +495,7 @@
                 </div>
 
                 <div class="bottom-bun"><img alt="Salad" src=
-                "images/salad-bottom.png"></div>
+                "images/salad-bottom.png" class="menu-section"></div>
             </div>
 
             <div class="menu-section" id="dessert">
@@ -594,7 +592,7 @@
                 </div>
 
                 <div class="bottom-bun"><img alt="Dessert" src=
-                "images/icecream-bottom.png"></div>
+                "images/icecream-bottom.png" class="menu-section"></div>
             </div>
         </div>
 
@@ -631,70 +629,47 @@
             </div>
         </div><!-- End Document
 ================================================== -->
-        <script src=
-        "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> <script src="bootstrap.js" type="text/javascript"></script> <script>
-$('.oval-thought-border').hide();
-=======
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-    </script>
-    <script src="bootstrap.js" type="text/javascript"></script>
-    <script>
-        $('.oval-thought-border').hide();
-        $('.rightnav').on('click', 'a', function (e) {
-                $(this).siblings('.oval-thought-border').toggle();
-        });
-        </script> <script>
-$('.menu-section-content').hide();
-        $('.menu-section-title, .bottom-bun').click(function (e) {
-            $(this).siblings('.menu-section-content').toggle();
-        });
-        </script> <script type="text/javascript">
-$( document ).ready(function() {
-        // back to top
-        setTimeout(function () {
-        var $sideBar = $('.bs-sidebar')
-
-        $sideBar.affix({
-        offset: {
-          top: function () {
-            var offsetTop      = $sideBar.offset().top
-            var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'))
-            var navOuterHeight = $('.bs-docs-nav').height()
-
-            return (this.top = offsetTop - navOuterHeight - sideBarMargin)
-          }
-        , bottom: function () {
-            return (this.bottom = $('.bs-footer').outerHeight(true))
-          }
-        }
-        })
-        }, 10)
-
-        });
-        </script> <script type="text/javascript">
-$( document ).ready(function() {
-        // back to top
-        setTimeout(function () {
-        var $sideBar = $('.rs-sidebar')
-
-        $sideBar.affix({
-        offset: {
-          top: function () {
-            var offsetTop      = $sideBar.offset().top
-            var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'))
-            var navOuterHeight = $('.rs-docs-nav').height()
-
-            return (this.top = offsetTop - navOuterHeight - sideBarMargin)
-          }
-        , bottom: function () {
-            return (this.bottom = $('.rs-footer').outerHeight(true))
-          }
-        }
-        })
-        }, 10)
-
-        });
-        </script>
     </div>
+    
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+   <script src="bootstrap.js" type="text/javascript"></script> 
+    
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            // back to top
+            setTimeout(function () {
+            var $sideBar = $('.bs-sidebar')
+    
+            $sideBar.affix({
+            offset: {
+              top: function () {
+                var offsetTop      = $sideBar.offset().top
+                var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'))
+                var navOuterHeight = $('.bs-docs-nav').height()
+    
+                return (this.top = offsetTop - navOuterHeight - sideBarMargin)
+              }
+            , bottom: function () {
+                return (this.bottom = $('.bs-footer').outerHeight(true))
+              }
+            }
+            })
+            }, 10)
+            
+            // hiding things
+            $('.oval-thought-border').hide();
+            $('.right-nav').on('click', 'a', function (e) {
+                    e.preventDefault();
+                    $mybubble = $(this).siblings('.oval-thought-border');
+                    $(this).siblings('.oval-thought-border').toggle();
+                    $('.oval-thought-border:not($mybubble)').hide()
+            });
+            
+            $('.menu-section-content').hide();
+            $('.menu-section-title, .bottom-bun').click(function (e) {
+                $(this).siblings('.menu-section-content').toggle();
+            });
+            });
+    </script>
 </body>
 </html>

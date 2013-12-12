@@ -19,6 +19,10 @@
 body { background-image: url(../images/darkwood3.jpg);}
 .site-header {background: url(../images/abbeyburg3.png) center top; padding-bottom: 0px; position: relative; z-index: 100;}
 .site-header .brand { display:block; float: none; margin: 0 auto; text-align: center; }
+.container .intro {float: none; display: block; margin: 0 auto;}
+.site-intro {background: url(../images/iconborder.png) center top; text-align: center;display: block; float: none; margin: 0 auto;}
+.site-intro .intro-text { margin: 0px; background-color:transparent; opacity:.75; line-height: 1em; text-align:center; padding: 10px; font-size: 30px; font-family: 'Reenie Beanie'; color: #FFF200;}
+.site-content .intro-text { margin: 20px; background-color:transparent; opacity:.75; line-height: 1em; text-align:center; padding: 10px; font-size: 30px; font-family: 'Reenie Beanie'; color: #FFF200;}
 .site-bottom {background: url(../images/abbeyfood.jpg) center bottom; padding-bottom: 0px; position: relative; z-index: 100;}
 .site-bottom .brand {display: block; float: none; margin: 0 auto; text-align: center; }
 .top-bar {margin-top:50px; margin-bottom: 0px; background-color: #D3D3D3; }
@@ -93,8 +97,8 @@ body { background-image: url(../images/darkwood3.jpg);}
 .top-content {font-family: "Blanchcaps"; font-size: 33px; color: #005FA7; text-align:center;  }
 .top-content > div { display:; }
 .top-content > div:first-child { display: block; padding: 15px }
-.intro-text { margin: 20px; background-color:transparent; opacity:.75; line-height: 1em; text-align:center; padding: 10px; font-size: 30px; font-family: 'Reenie Beanie'; color: #FFF200;}
-.site-content .section { display: block; float: none; margin: 0 auto; }
+.intro-specials {margin: 20px; line-height: 1em; text-align:center; padding: 10px; font-size: 20px; font-family: "blanchcaps"; color: #005FA7;}
+.site-content .section { display: block; float: none; margin: 0 auto; max-width:100%; height: auto; }
 .site-content .item-title { font-family: "blanchcaps"; color: #FFF200; font-size: 40px; }
 .site-content .item-description {font-family: gillsans; color: #FFF200; font-size: 16px; }
 .site-news .awards {align-self: center; display: inline-block; padding-top:20px; padding-bottom:50px;}
@@ -106,14 +110,13 @@ body { background-image: url(../images/darkwood3.jpg);}
 
 .site-footer .footer-content { margin-top: 50px; margin-bottom: 50px; background-color: #005FA7; padding: 10px; margin: 0 auto; text-align: center; font-family:"blanchcaps"; font-size:30px; color: #FFF200; padding-bottom:10px;}
 
-.menu-section-title:hover {opacity: 1; cursor:pointer;}
-.menu-section-title {opacity: .75; padding-top: 100px; padding-bottom: 0;}
+.menu-section-title:hover {opacity: 1; cursor:pointer; max-width: 100%; height: auto;}
+.menu-section-title {opacity: .75; padding-top: 100px; padding-bottom: 0;max-width: 100%; height: auto;}
 
-.bottom-bun:hover {opacity: 1; cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-food/food57.gif'), auto;}
-.bottom-bun {opacity: .75; padding-top:0px;padding-bottom: 20px;}
+.bottom-bun:hover {opacity: 1; cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-food/food57.gif'), auto; max-width: 100%; height: auto;}
+.bottom-bun {opacity: .75; padding-top:0px;padding-bottom: 20px; max-width: 100%; height: auto;}
 
-.menu-section-content {padding-top:20px;
-}
+.menu-section-content {padding-top:20px;}
 p {margin-top:.5em; margin-bottom: .5em;}
 .bs-sidebar.affix {
 position: fixed;
