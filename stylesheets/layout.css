@@ -90,7 +90,6 @@ body { background-image: url(../images/darkwood3.jpg);}
     /* reduce the damage in FF3.0 */
     display:block; 
 }
-.curtainleft {padding-top: 0px; padding-left:0px; padding-right:200px;}
 .top-content {font-family: "Blanchcaps"; font-size: 33px; color: #005FA7; text-align:center;  }
 .top-content > div { display:; }
 .top-content > div:first-child { display: block; padding: 15px }
