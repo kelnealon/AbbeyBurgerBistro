@@ -73,7 +73,7 @@
 
                 <div class="top-content six columns">
                     <div id="title">
-                        where burgers, soccer &amp; YOU rule.
+                        
                     </div>
                 </div>
 
@@ -86,7 +86,8 @@
                             "images/HoursIcon.png"></a>
 
                             <div class="oval-thought-border" id="hours">
-                                Open for biz: M:5pm-2am, Tu-Sun:11:30am-2am
+                              Open: 11:30am-2am 
+                                <p>(Monday: 5pm-2am)</p>
                             </div>
                         </li>
 
@@ -97,8 +98,7 @@
                             "images/LocationIcon.png"></a>
 
                             <div class="oval-thought-border" id="location">
-                                1041 Marshall Street, Baltimore (in Fed Hill
-                                across from the Cross Street Market)
+                                1041 Marshall Street, Baltimore (Fed Hill)
                             </div>
                         </li>
 
@@ -108,7 +108,7 @@
                             "images/ContactIcon.png"></a>
 
                             <div class="oval-thought-border" id="contact">
-                                Give us a ring: 443.453.9698
+                                (443)453.9698
                             </div>
                         </li>
 
@@ -118,7 +118,7 @@
                             class="menu-bar" src="images/TwitterIcon.png"></a>
 
                             <div class="oval-thought-border" id="twitter">
-                                Twitter Feed Update Goes Here
+                              <div id="twitter_div"><ul id="twitter_update_list"><li>&nbsp;</li></ul></div>
                             </div>
                         </li>
                     </ul>
@@ -669,7 +669,10 @@
             $('.menu-section-title, .bottom-bun').click(function (e) {
                 $(this).siblings('.menu-section-content').toggle();
             });
+       
             });
     </script>
+         <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/Abbey_Burger.json?callback=twitterCallback2&count=1"></script>
 </body>
 </html>
