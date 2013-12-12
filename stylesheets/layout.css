@@ -17,9 +17,10 @@
 /* #Site Styles
 ================================================== */
 body { background-image: url(../images/darkwood3.jpg);}
-.site-header {background: url(../images/abbeyburg.jpg) center top; padding-bottom: 0px; position: relative; z-index: 100;}
+.site-header {background: url(../images/abbeyburg3.png) center top; padding-bottom: 0px; position: relative; z-index: 100;}
 .site-header .brand { display:block; float: none; margin: 0 auto; text-align: center; }
-.site-content .curtains {background-image: url(../images/curtain.png)left top; padding-bottom: 0px; position: absolute; z-index: 100; background-image: url(../images/curtain.png)right top; padding-bottom: 0px; position: absolute; z-index: 100;}
+.site-bottom {background: url(../images/abbeyfood.jpg) center bottom; padding-bottom: 0px; position: relative; z-index: 100;}
+.site-bottom .brand {display: block; float: none; margin: 0 auto; text-align: center; }
 .top-bar {margin-top:50px; margin-bottom: 0px; background-color: #D3D3D3; }
 .nav { margin: 0; padding: 0; list-style: none; }
 .nav li { display: inline-block; margin-left: 15px;}
@@ -97,7 +98,7 @@ body { background-image: url(../images/darkwood3.jpg);}
 .site-content .section { display: block; float: none; margin: 0 auto; }
 .site-content .item-title { font-family: "blanchcaps"; color: #FFF200; font-size: 40px; }
 .site-content .item-description {font-family: gillsans; color: #FFF200; font-size: 16px; }
-.site-news .awards {align-self: center; display: inline-block; padding-top:20px; padding-bottom:50px; size: 100px;}
+.site-news .awards {align-self: center; display: inline-block; padding-top:20px; padding-bottom:50px;}
 
 .awards img:hover {opacity: 1; cursor: url('http://www.dolliehost.com/dolliecrave/cursors/cursors-food/food57.gif'), auto;}
 .awards img {display: inline-block; margin-right: 26px; opacity: .5;}
