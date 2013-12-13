@@ -633,12 +633,24 @@
     
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
    <script src="bootstrap.js" type="text/javascript"></script> 
-    
+<script src="//rawgithub.com/christianv/jquery-lifestream/master/jquery.lifestream.min.js"></script>
+<script>
+  $("#twitter").lifestream({
+      limit: 1,
+    list:[
+      {
+        service: "twitter",
+        user: "Abbey_Burger"
+      },
+     
+    ]
+  });
+</script>
     <script type="text/javascript">
         $( document ).ready(function() {
             // back to top
             setTimeout(function () {
-            var $sideBar = $('.bs-sidebar')
+            var $sideBar = $('.bs-sidebar, .rs-sidebar');
     
             $sideBar.affix({
             offset: {
@@ -672,7 +684,5 @@
        
             });
     </script>
-         <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-<script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/Abbey_Burger.json?callback=twitterCallback2&count=1"></script>
-</body>
+         
 </html>
