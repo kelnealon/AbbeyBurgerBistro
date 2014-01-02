@@ -21,9 +21,10 @@ body { background-image: url(../images/darkwood3.jpg);}
 .site-header .brand { display:block; float: none; margin: 0 auto; text-align: center; max-width: 100%; height: auto; }
 .brand img {max-width: 100%; height: auto;}
 .container .intro {float: none; display: block; margin: 0 auto;}
-.site-intro {background: url(../images/iconborder.png) center top; text-align: center;display: block; float: none; margin: 0 auto; padding-bottom:50px;}
-.site-intro .intro-text { margin: 0px; background-color:transparent; opacity:1; line-height: 1em; text-align:center; padding-top: 80px; padding-bottom: 50px; font-size: 33px; font-family: 'blanchcaps'; color: #FFF200;}
-.site-content .intro-text { margin: 20px; background-color:transparent; opacity:1; line-height: 1em; text-align:center; padding-top: 40px; font-size: 20px; font-family: 'DK Wayang'; color: #FFF200;}
+.site-intro {background: url(../images/iconborder.png) center top; text-align: center;display: block; float: none; margin: 0 auto; padding-bottom:100px; opacity:.75; background-repeat:no-repeat;}
+.site-intro .intro-title { margin: 0px; text-align:center; line-height: 1em; padding-top 200px; font-size: 45px; font-weight: 800; font-family: 'blanchcaps'; color: #FFF200;}
+.site-intro .intro-text { margin: 0px; background-color:transparent; line-height: 1em; text-align:center; padding-top: 0px; padding-bottom: 10px; font-size: 33px; font-family: 'blanchcaps'; color: #005FA7; z-index:3;}
+.site-content .intro-text { margin: 20px; background-color:transparent; line-height: 1em; text-align:center; padding-top: 40px; font-size: 20px; font-family: 'Gill Sans'; color: #FFF200;}
 .site-bottom {background: url(../images/abbeyfood.jpg) center bottom; padding-bottom: 0px; position: relative; z-index: 100;}
 .site-bottom .brand {display: block; float: none; margin: 0 auto; text-align: center; }
 .top-bar {margin-top:50px; margin-bottom: 0px; background: rgba(255,255,255,0.25);}
@@ -115,7 +116,7 @@ body { background-image: url(../images/darkwood3.jpg);}
 
 .menu-section img {max-width: 100%; height: auto;}
 .menu-section-title:hover {opacity: 1; cursor:pointer; max-width: 100%; height: auto;}
-.menu-section-title {opacity: .5; padding-top: 100px; padding-bottom: 0;max-width: 100%; height: auto;}
+.menu-section-title {opacity: .5; padding-top: 150px; padding-bottom: 0;max-width: 100%; height: auto;}
 
 .bottom-bun:hover {opacity: 1; cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-food/food57.gif'), auto; max-width: 100%; height: auto;}
 .bottom-bun {opacity: .5; padding-top:0px;padding-bottom: 20px; max-width: 100%; height: auto;}
